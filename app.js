@@ -5,7 +5,7 @@ function addTask() {
     if (taskText === '') {
         return;
     }
-
+**add more in here**
     const taskList = document.getElementById('taskList');
     const li = document.createElement('li');
     li.innerText = taskText;
